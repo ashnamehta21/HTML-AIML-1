@@ -1,0 +1,53 @@
+.Login_form{
+    width: 450px;
+    margin: 40px auto;
+    padding: 0 0 20px 0;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: sans-serif;
+}
+.parent_head{
+    background-color: blanchedalmond;
+    padding: 20px 0;
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+}
+.Username, .password{
+    margin-top: 20px;
+}
+.Username label, .password label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.Username input, .password input{
+    padding: 8px 10px;
+    margin-left: 10px;
+    width: 55%;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+.button{
+    margin-top: 20px;
+}
+.button input{
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f4a460;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button input:hover{
+    background-color: #e48a34;
+}
+.text{
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
